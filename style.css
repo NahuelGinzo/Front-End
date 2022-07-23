@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-family: 'Arial';
+}
+
+
+header{
+    display: flex;
+    min-height: 100px;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.foto{
+    display: flex;
+    align-items: center;
+    
+}
+.fotodelcv{
+    height: 100px;
+margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+@media (max-width: 700px) {
+header{
+    flex-direction: column;
+}
+nav{
+    padding: 10px 0;
+}
+}
+/*Estilo del boton de texto*/
+/*.boton{
+    border-radius: 60px;
+    margin: 0px 0px;
+    padding: 5px;
+    border-color: rgb(10, 10, 10);
+    display: auto;
+    z-index: 1; 
+}*/
